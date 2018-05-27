@@ -1,0 +1,22 @@
+<Counter />
+			---------render----------->UI Rendered
+{ count: 0}---------re-render------------>	|
+   /|\		 								|
+	value updated		 					|
+	|										|
+	|		 							   \|/			 											 								
+	--------------Action taken - such as button clicked to add 1 etc. [e.g. handleAddOne() to increase count by 1]
+
+    //so whenever the data changes, we need to update it, and re-render the application, that maintains the component state
+    //state is just an object with key-value pair
+    //we can change the value by interacting with the page with actions
+
+
+    //5 things essential to make sure component state works::
+    //1. Setup default state object
+    //2. Component rendered with default state values
+    //3. Change state based on event
+    //4. Component re-rendered using new state values
+    //5. Start again at 3.
+
+    
